@@ -1,10 +1,9 @@
 # 🐬 Odontocete Click Detection
 
 Detection of odontocete (toothed whale) echolocation clicks using underwater acoustic recordings from the **CARI’MAM** project (2017–2021).  
-The goal is to identify **extreme wave clicks** likely to impact coastlines and contribute to marine risk monitoring.
 
 ## Overview
-- Labeled dataset (~23k audio files, 200 ms each) from **Copernicus** and **CARI’MAM**.  
+- Labeled dataset (~23k audio files, 200 ms each) from **CARI’MAM**.  
 - Binary classification: *click* vs *no-click*.  
 - Several modeling strategies were tested: **MLP**, **1D CNN**, and **2D CNN (Mel spectrograms)**.  
 - Best performance achieved with a **hybrid 1D CNN (AUC = 0.94)** combining waveform and acoustic features.
