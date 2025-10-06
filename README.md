@@ -12,7 +12,7 @@ The goal is to identify **extreme wave clicks** likely to impact coastlines and 
 ## Workflow
 1. **Preprocessing:** filtering (5–100 kHz), normalization, wavelet denoising  
 2. **Feature engineering:** RMS power, spectral centroid, SNR, lags, seasonality  
-3. **Modeling:** MLP, GRU/LSTM, CNN1D, CNN2D  
+3. **Modeling:** MLP, CNN1D, CNN2D  
 4. **Evaluation:** AUC-ROC metric
 
 ## Tech Stack
